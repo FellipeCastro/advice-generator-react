@@ -21,7 +21,7 @@ export default function Advice() {
 
     return (
         <div className='advice_container'>
-            <h1>Advice #{conselhoNum}</h1>
+            <h1>Advice {conselhoNum}</h1>
             <p>{conselhoText}</p>
             <Button text={<FaDice />} onClick={gerarConselho} />
         </div>
