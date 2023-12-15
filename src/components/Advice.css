@@ -1,0 +1,26 @@
+.advice_container {
+    position: relative;
+    color: #fff;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 3em 2em 4em 2em;
+    background-color: #333;
+    border-radius: 20px;
+    border: 2px solid #00e0ff;
+}
+
+.advice_container h1 {
+    font-size: 1.2em;
+    color: #00e0ff;
+    font-style: italic;
+}
+
+.advice_container p {
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+}
