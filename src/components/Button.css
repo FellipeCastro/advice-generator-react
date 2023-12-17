@@ -2,12 +2,12 @@
     position: absolute;
     bottom: -15%;
     padding: 1em;
-    border: 2px solid #00e0ff;
+    border: 2px solid #fff;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #00e0ff;
+    background-color: #fff;
     cursor: pointer;
     transition: .5s;
 }
@@ -23,5 +23,5 @@
 }
 
 .btn:hover > svg {
-    color: #00e0ff;
+    color: #fff;
 }
